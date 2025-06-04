@@ -5,7 +5,7 @@ const Team = () => {
     {
       name: 'Azhar Aziz',
       position: 'Founder & CEO',
-      image: 'https://github.com/FaizanAziz69/mediaBridge/blob/main/src/assets/azhar1.jpg',
+      image: 'https://res.cloudinary.com/ddnke4aa0/image/upload/v1749043674/Screenshot_20250604-171034__01_q7i5me.jpg',
       bio: 'With over 30 years of experience in advertising and brand strategy, Azhar  our team with a passion for innovative solutions.',
       social: {
         linkedin: '#',
@@ -16,7 +16,7 @@ const Team = () => {
     {
       name: 'Uzair Azhar',
       position: 'Digital Marketing Manager',
-    image: 'https://github.com/FaizanAziz69/mediaBridge/blob/main/src/assets/uzair.jpg',
+    image: 'https://res.cloudinary.com/ddnke4aa0/image/upload/v1749043674/Screenshot_20250604-170453__01_hqehp5.jpg',
       bio: 'Uzair a unique artistic vision to every project, combining traditional design principles with cutting-edge techniques.',
       social: {
         linkedin: '#',
