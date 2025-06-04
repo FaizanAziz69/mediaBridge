@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans text-gray-900;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans leading-tight tracking-tight;
+  }
+}
+
+@layer utilities {
+  .animate-scroll {
+    animation: scroll 1.5s infinite;
+  }
+
+  .animate-fade-in {
+    opacity: 1 !important;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateY(0);
+      opacity: 0.7;
+    }
+    50% {
+      transform: translateY(10px);
+      opacity: 0.4;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 0.7;
+    }
+  }
+}
